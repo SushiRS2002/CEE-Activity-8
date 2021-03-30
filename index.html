@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="Activity 8 Part B.css">
+  </head>
+  <body>
+    <h1 id="app-name">ฝากซื้อด้วย</h1>
+    <h2 class="section-title">รายชื่อผู้มีสิทธิ์ฝากซื้อ</h2>
+    <h3 class="section-subtitle">(ชื่อคนในกลุ่มที่มาร่วมทำวันนี้)</h3>
+    <ul id="member-list">
+      <li>รัชพล สุคนธมาน</li>
+      <li>ณิชภัทร เกริกกิตติกุล</li>
+      <li>ธิติวัฒน์ นาคประเสริฐ</li>
+      <li>ปวัน กันแจ่ม</li>
+    </ul>
+    <br/>
+    
+    <h2 class="section-title">รายการฝากซื้อ</h2>
+    <table id="main-table">
+      <thead>
+      	<tr>
+        	<th class="section-subtitile">ของที่ฝากซื้อ</th>
+        	<th class="section-subtitile">ชื่อผู้ฝากซื้อ</th>
+        	<th class="section-subtitile">ราคา(บาท)</th>
+        	<th class="section-subtitile">ดำเนินการ</th>
+      	</tr>
+    	</thead>
+      <!-- <tr>
+        <td>แซนวิชทูน่า</td>
+        <td>รัชพล สุคนธมาน</td>
+        <td>15.0</td>
+        <td><button class="delete-row">ลบ</button></td>
+      </tr>
+      <tr>
+        <td>โค้ก</td>
+        <td>ณิชภัทร เกริกกิตติกุล</td>
+        <td>8.0</td>
+        <td><button class="delete-row">ลบ</button></td>
+      </tr>
+      <tr>
+        <td>ข้าวผัดกุ้ง</td>
+        <td>ธิติวัฒน์ นาคประเสริฐ</td>
+        <td>20.0</td>
+        <td><button class="delete-row">ลบ</button></td>
+      </tr>
+      <tr>
+        <td>ราดหน้า</td>
+        <td>ปวัน กันแจ่ม</td>
+        <td>30.0</td>
+        <td><button class="delete-row">ลบ</button></td>
+      </tr>
+      <tr>
+        <td>ครัวซองต์แฮมชีส</td>
+        <td>ธิติวัฒน์ นาคประเสริฐ</td>
+        <td>23.0</td>
+        <td><button class="delete-row">ลบ</button></td>
+      </tr> -->
+      <tr>
+        <td><input id="item-to-add" /></td>
+        <td>
+          <select id="name-to-add">
+            <option>-- เลือกผู้ฝากซื้อ --</option>
+          	<option>รัชพล สุคนธมาน</option>
+          	<option>ณิชภัทร เกริกกิตติกุล</option>
+          	<option>ธิติวัฒน์ นาคประเสริฐ</option>
+            <option>ปวัน กันแจ่ม</option>
+          </select>
+        </td>
+        <td><input id="price-to-add" /></td>
+        <td><button id="add-newrow">เพิ่ม</button></td>
+      </tr>
+    </table>
+
+    <script src="Activity 8 Part C.js"></script>
+
+  </body>
+</html>
